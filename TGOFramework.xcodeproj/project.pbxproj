@@ -7,12 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840E3486DE9CEB337D660502 /* Pods_TGOFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC8C68C95E9A96ECB3F1EF1 /* Pods_TGOFramework.framework */; };
 		B321693329CA0CCA00453F1B /* TGOFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = B321693229CA0CCA00453F1B /* TGOFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3C062AA29CCA95E009DE065 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0628029CCA95D009DE065 /* SidebarView.swift */; };
+		B3C062AB29CCA95E009DE065 /* SidebarCircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0628329CCA95D009DE065 /* SidebarCircleButtonView.swift */; };
+		B3C062AC29CCA95E009DE065 /* SidebarRectangleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0628429CCA95D009DE065 /* SidebarRectangleButtonView.swift */; };
+		B3C062AD29CCA95E009DE065 /* SidebarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0628529CCA95D009DE065 /* SidebarButtonView.swift */; };
+		B3C062AE29CCA95E009DE065 /* SidebarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0628729CCA95D009DE065 /* SidebarContentView.swift */; };
+		B3C062AF29CCA95E009DE065 /* SidebarContentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0628829CCA95D009DE065 /* SidebarContentPresenter.swift */; };
+		B3C062B029CCA95E009DE065 /* SidebarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0628929CCA95D009DE065 /* SidebarPresenter.swift */; };
+		B3C062B129CCA95E009DE065 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0628B29CCA95D009DE065 /* HomeView.swift */; };
+		B3C062B229CCA95E009DE065 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0628C29CCA95D009DE065 /* HomePresenter.swift */; };
+		B3C062B329CCA95E009DE065 /* LabelBottomBordered.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0628F29CCA95D009DE065 /* LabelBottomBordered.swift */; };
+		B3C062B429CCA95E009DE065 /* GerenteResumeWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0629129CCA95D009DE065 /* GerenteResumeWidgetView.swift */; };
+		B3C062B529CCA95E009DE065 /* PDVStackWidgetPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0629329CCA95D009DE065 /* PDVStackWidgetPresenter.swift */; };
+		B3C062B629CCA95E009DE065 /* PDVStackWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0629429CCA95D009DE065 /* PDVStackWidgetView.swift */; };
+		B3C062B729CCA95E009DE065 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0629729CCA95D009DE065 /* CircleButtonView.swift */; };
+		B3C062B829CCA95E009DE065 /* ExpandButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0629829CCA95D009DE065 /* ExpandButtonView.swift */; };
+		B3C062B929CCA95E009DE065 /* PDVCardWidgetPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0629929CCA95D009DE065 /* PDVCardWidgetPresenter.swift */; };
+		B3C062BA29CCA95E009DE065 /* PDVCardWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0629A29CCA95D009DE065 /* PDVCardWidgetView.swift */; };
+		B3C062BB29CCA95E009DE065 /* ORCWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0629F29CCA95D009DE065 /* ORCWidgetView.swift */; };
+		B3C062BC29CCA95E009DE065 /* CircleProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C062A229CCA95D009DE065 /* CircleProgressBarView.swift */; };
+		B3C062BD29CCA95E009DE065 /* AcuerdosCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C062A329CCA95D009DE065 /* AcuerdosCircleView.swift */; };
+		B3C062BE29CCA95E009DE065 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C062A429CCA95D009DE065 /* MainView.swift */; };
+		B3C062BF29CCA95E009DE065 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C062A529CCA95E009DE065 /* MainRouter.swift */; };
+		B3C062C029CCA95E009DE065 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C062A729CCA95E009DE065 /* UIViewControllerExtension.swift */; };
+		B3C062C129CCA95E009DE065 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C062A829CCA95E009DE065 /* UIViewExtension.swift */; };
+		B3C062C229CCA95E009DE065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C062A929CCA95E009DE065 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D9ED91A66539549379039FF /* Pods-TGOFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGOFramework.release.xcconfig"; path = "Target Support Files/Pods-TGOFramework/Pods-TGOFramework.release.xcconfig"; sourceTree = "<group>"; };
+		7EC8C68C95E9A96ECB3F1EF1 /* Pods_TGOFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TGOFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B321692F29CA0CCA00453F1B /* TGOFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TGOFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B321693229CA0CCA00453F1B /* TGOFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGOFramework.h; sourceTree = "<group>"; };
+		B3C0628029CCA95D009DE065 /* SidebarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		B3C0628329CCA95D009DE065 /* SidebarCircleButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarCircleButtonView.swift; sourceTree = "<group>"; };
+		B3C0628429CCA95D009DE065 /* SidebarRectangleButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarRectangleButtonView.swift; sourceTree = "<group>"; };
+		B3C0628529CCA95D009DE065 /* SidebarButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarButtonView.swift; sourceTree = "<group>"; };
+		B3C0628729CCA95D009DE065 /* SidebarContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarContentView.swift; sourceTree = "<group>"; };
+		B3C0628829CCA95D009DE065 /* SidebarContentPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarContentPresenter.swift; sourceTree = "<group>"; };
+		B3C0628929CCA95D009DE065 /* SidebarPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarPresenter.swift; sourceTree = "<group>"; };
+		B3C0628B29CCA95D009DE065 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B3C0628C29CCA95D009DE065 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		B3C0628F29CCA95D009DE065 /* LabelBottomBordered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelBottomBordered.swift; sourceTree = "<group>"; };
+		B3C0629129CCA95D009DE065 /* GerenteResumeWidgetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GerenteResumeWidgetView.swift; sourceTree = "<group>"; };
+		B3C0629329CCA95D009DE065 /* PDVStackWidgetPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDVStackWidgetPresenter.swift; sourceTree = "<group>"; };
+		B3C0629429CCA95D009DE065 /* PDVStackWidgetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDVStackWidgetView.swift; sourceTree = "<group>"; };
+		B3C0629729CCA95D009DE065 /* CircleButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		B3C0629829CCA95D009DE065 /* ExpandButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandButtonView.swift; sourceTree = "<group>"; };
+		B3C0629929CCA95D009DE065 /* PDVCardWidgetPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDVCardWidgetPresenter.swift; sourceTree = "<group>"; };
+		B3C0629A29CCA95D009DE065 /* PDVCardWidgetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDVCardWidgetView.swift; sourceTree = "<group>"; };
+		B3C0629F29CCA95D009DE065 /* ORCWidgetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ORCWidgetView.swift; sourceTree = "<group>"; };
+		B3C062A229CCA95D009DE065 /* CircleProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressBarView.swift; sourceTree = "<group>"; };
+		B3C062A329CCA95D009DE065 /* AcuerdosCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcuerdosCircleView.swift; sourceTree = "<group>"; };
+		B3C062A429CCA95D009DE065 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B3C062A529CCA95E009DE065 /* MainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		B3C062A729CCA95E009DE065 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		B3C062A829CCA95E009DE065 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		B3C062A929CCA95E009DE065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B672C0547A7B4E1492E08043 /* Pods-TGOFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TGOFramework.debug.xcconfig"; path = "Target Support Files/Pods-TGOFramework/Pods-TGOFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -20,17 +74,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840E3486DE9CEB337D660502 /* Pods_TGOFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05919C44AE00E25B339DAA00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EC8C68C95E9A96ECB3F1EF1 /* Pods_TGOFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48C4529E6DD14EB7DA686867 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B672C0547A7B4E1492E08043 /* Pods-TGOFramework.debug.xcconfig */,
+				6D9ED91A66539549379039FF /* Pods-TGOFramework.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B321692529CA0CCA00453F1B = {
 			isa = PBXGroup;
 			children = (
 				B321693129CA0CCA00453F1B /* TGOFramework */,
 				B321693029CA0CCA00453F1B /* Products */,
+				48C4529E6DD14EB7DA686867 /* Pods */,
+				05919C44AE00E25B339DAA00 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,9 +119,186 @@
 		B321693129CA0CCA00453F1B /* TGOFramework */ = {
 			isa = PBXGroup;
 			children = (
+				B3C062A929CCA95E009DE065 /* Assets.xcassets */,
+				B3C0627E29CCA95D009DE065 /* Components */,
+				B3C062A629CCA95E009DE065 /* Extensions */,
+				B3C062A529CCA95E009DE065 /* MainRouter.swift */,
+				B3C062A429CCA95D009DE065 /* MainView.swift */,
 				B321693229CA0CCA00453F1B /* TGOFramework.h */,
 			);
 			path = TGOFramework;
+			sourceTree = "<group>";
+		};
+		B3C0627E29CCA95D009DE065 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0627F29CCA95D009DE065 /* Sidebar */,
+				B3C0628A29CCA95D009DE065 /* Home */,
+				B3C0628D29CCA95D009DE065 /* Widgets */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B3C0627F29CCA95D009DE065 /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0628029CCA95D009DE065 /* SidebarView.swift */,
+				B3C0628129CCA95D009DE065 /* Components */,
+				B3C0628929CCA95D009DE065 /* SidebarPresenter.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		B3C0628129CCA95D009DE065 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0628229CCA95D009DE065 /* SidebarButton */,
+				B3C0628629CCA95D009DE065 /* SidebarContent */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B3C0628229CCA95D009DE065 /* SidebarButton */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0628329CCA95D009DE065 /* SidebarCircleButtonView.swift */,
+				B3C0628429CCA95D009DE065 /* SidebarRectangleButtonView.swift */,
+				B3C0628529CCA95D009DE065 /* SidebarButtonView.swift */,
+			);
+			path = SidebarButton;
+			sourceTree = "<group>";
+		};
+		B3C0628629CCA95D009DE065 /* SidebarContent */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0628729CCA95D009DE065 /* SidebarContentView.swift */,
+				B3C0628829CCA95D009DE065 /* SidebarContentPresenter.swift */,
+			);
+			path = SidebarContent;
+			sourceTree = "<group>";
+		};
+		B3C0628A29CCA95D009DE065 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0628B29CCA95D009DE065 /* HomeView.swift */,
+				B3C0628C29CCA95D009DE065 /* HomePresenter.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B3C0628D29CCA95D009DE065 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0628E29CCA95D009DE065 /* Shared */,
+				B3C0629029CCA95D009DE065 /* GerenteResumeWidget */,
+				B3C0629229CCA95D009DE065 /* PDVStackWidget */,
+				B3C0629529CCA95D009DE065 /* PDVCardWidget */,
+				B3C0629B29CCA95D009DE065 /* CalendarWidget */,
+				B3C0629C29CCA95D009DE065 /* HealthStatusWidget */,
+				B3C0629D29CCA95D009DE065 /* CalendarWidgetç */,
+				B3C0629E29CCA95D009DE065 /* ORCWidget */,
+				B3C062A029CCA95D009DE065 /* AcuerdosCircleWidget */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		B3C0628E29CCA95D009DE065 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0628F29CCA95D009DE065 /* LabelBottomBordered.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B3C0629029CCA95D009DE065 /* GerenteResumeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0629129CCA95D009DE065 /* GerenteResumeWidgetView.swift */,
+			);
+			path = GerenteResumeWidget;
+			sourceTree = "<group>";
+		};
+		B3C0629229CCA95D009DE065 /* PDVStackWidget */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0629329CCA95D009DE065 /* PDVStackWidgetPresenter.swift */,
+				B3C0629429CCA95D009DE065 /* PDVStackWidgetView.swift */,
+			);
+			path = PDVStackWidget;
+			sourceTree = "<group>";
+		};
+		B3C0629529CCA95D009DE065 /* PDVCardWidget */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0629629CCA95D009DE065 /* Components */,
+				B3C0629929CCA95D009DE065 /* PDVCardWidgetPresenter.swift */,
+				B3C0629A29CCA95D009DE065 /* PDVCardWidgetView.swift */,
+			);
+			path = PDVCardWidget;
+			sourceTree = "<group>";
+		};
+		B3C0629629CCA95D009DE065 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0629729CCA95D009DE065 /* CircleButtonView.swift */,
+				B3C0629829CCA95D009DE065 /* ExpandButtonView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B3C0629B29CCA95D009DE065 /* CalendarWidget */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CalendarWidget;
+			sourceTree = "<group>";
+		};
+		B3C0629C29CCA95D009DE065 /* HealthStatusWidget */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HealthStatusWidget;
+			sourceTree = "<group>";
+		};
+		B3C0629D29CCA95D009DE065 /* CalendarWidgetç */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "CalendarWidgetç";
+			sourceTree = "<group>";
+		};
+		B3C0629E29CCA95D009DE065 /* ORCWidget */ = {
+			isa = PBXGroup;
+			children = (
+				B3C0629F29CCA95D009DE065 /* ORCWidgetView.swift */,
+			);
+			path = ORCWidget;
+			sourceTree = "<group>";
+		};
+		B3C062A029CCA95D009DE065 /* AcuerdosCircleWidget */ = {
+			isa = PBXGroup;
+			children = (
+				B3C062A129CCA95D009DE065 /* Components */,
+				B3C062A329CCA95D009DE065 /* AcuerdosCircleView.swift */,
+			);
+			path = AcuerdosCircleWidget;
+			sourceTree = "<group>";
+		};
+		B3C062A129CCA95D009DE065 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B3C062A229CCA95D009DE065 /* CircleProgressBarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B3C062A629CCA95E009DE065 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B3C062A729CCA95E009DE065 /* UIViewControllerExtension.swift */,
+				B3C062A829CCA95E009DE065 /* UIViewExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,6 +319,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B321693629CA0CCA00453F1B /* Build configuration list for PBXNativeTarget "TGOFramework" */;
 			buildPhases = (
+				1960768BF4207EC93FBC3D39 /* [CP] Check Pods Manifest.lock */,
 				B321692A29CA0CCA00453F1B /* Headers */,
 				B321692B29CA0CCA00453F1B /* Sources */,
 				B321692C29CA0CCA00453F1B /* Frameworks */,
@@ -93,6 +345,7 @@
 				TargetAttributes = {
 					B321692E29CA0CCA00453F1B = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -119,16 +372,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3C062C229CCA95E009DE065 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1960768BF4207EC93FBC3D39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TGOFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B321692B29CA0CCA00453F1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3C062B529CCA95E009DE065 /* PDVStackWidgetPresenter.swift in Sources */,
+				B3C062BE29CCA95E009DE065 /* MainView.swift in Sources */,
+				B3C062AC29CCA95E009DE065 /* SidebarRectangleButtonView.swift in Sources */,
+				B3C062B729CCA95E009DE065 /* CircleButtonView.swift in Sources */,
+				B3C062AE29CCA95E009DE065 /* SidebarContentView.swift in Sources */,
+				B3C062BC29CCA95E009DE065 /* CircleProgressBarView.swift in Sources */,
+				B3C062C129CCA95E009DE065 /* UIViewExtension.swift in Sources */,
+				B3C062B629CCA95E009DE065 /* PDVStackWidgetView.swift in Sources */,
+				B3C062C029CCA95E009DE065 /* UIViewControllerExtension.swift in Sources */,
+				B3C062BD29CCA95E009DE065 /* AcuerdosCircleView.swift in Sources */,
+				B3C062AA29CCA95E009DE065 /* SidebarView.swift in Sources */,
+				B3C062BF29CCA95E009DE065 /* MainRouter.swift in Sources */,
+				B3C062B029CCA95E009DE065 /* SidebarPresenter.swift in Sources */,
+				B3C062BB29CCA95E009DE065 /* ORCWidgetView.swift in Sources */,
+				B3C062BA29CCA95E009DE065 /* PDVCardWidgetView.swift in Sources */,
+				B3C062B929CCA95E009DE065 /* PDVCardWidgetPresenter.swift in Sources */,
+				B3C062B429CCA95E009DE065 /* GerenteResumeWidgetView.swift in Sources */,
+				B3C062B829CCA95E009DE065 /* ExpandButtonView.swift in Sources */,
+				B3C062AB29CCA95E009DE065 /* SidebarCircleButtonView.swift in Sources */,
+				B3C062B129CCA95E009DE065 /* HomeView.swift in Sources */,
+				B3C062B329CCA95E009DE065 /* LabelBottomBordered.swift in Sources */,
+				B3C062B229CCA95E009DE065 /* HomePresenter.swift in Sources */,
+				B3C062AD29CCA95E009DE065 /* SidebarButtonView.swift in Sources */,
+				B3C062AF29CCA95E009DE065 /* SidebarContentPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -243,7 +546,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -257,7 +560,9 @@
 		};
 		B321693729CA0CCA00453F1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B672C0547A7B4E1492E08043 /* Pods-TGOFramework.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -268,6 +573,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -277,7 +583,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.TGO.TGOFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,7 +595,9 @@
 		};
 		B321693829CA0CCA00453F1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9ED91A66539549379039FF /* Pods-TGOFramework.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -296,6 +608,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +618,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.TGO.TGOFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
